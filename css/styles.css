@@ -54,6 +54,8 @@ img {
 }
 /* ===========COMPONENTS=========== */
 .header {
+  position: absolute;
+  background-color: teal;
   height: 80px;
   border-bottom: 1px solid #ececec;
 }
@@ -654,6 +656,8 @@ img {
   background-color: #ffffff;
 }
 .modal-close-btn {
+  position: absolute;
+
   display: flex;
   justify-content: center;
   align-items: center;
@@ -661,9 +665,10 @@ img {
   height: 30px;
   margin-left: auto;
   border-radius: 50%;
-  margin-top: 8px;
-  margin-right: 8px;
+  top: 8px;
+  right: 8px;
   outline: none;
+  cursor: pointer;
 
   background: transparent;
   border: 1px solid rgba(0, 0, 0, 0.1);
