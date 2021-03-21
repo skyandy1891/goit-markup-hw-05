@@ -58,7 +58,7 @@
             <h2 class="hero-item">
                 Эффективные решения для вашего бизнеса
             </h2>
-            <button class="modal-btn" type=button> Заказать услугу </button>
+            <button type=button class="modal-btn" data-modal-open> Заказать услугу </button>
         </section>
 
                                             <!-- ABOUT -->
@@ -501,14 +501,15 @@
             </div>
         </div>
     </footer>
-    <div class="backdrop">
+    <div class="backdrop is-hidden" data-modal>
         <div class="modal">
-            <button type="button" class="modal-close-btn">
+            <button type="button" class="modal-close-btn" data-modal-close>
                 <svg class="icon-close" width="11" height="11" >
                     <use href="./images/sprite.svg#Vector"></use>
                 </svg>
             </button>
         </div>
     </div>
+    <script src="./js/modal.js"></script>
 </body>
 </html>
